@@ -1,17 +1,18 @@
 ---
 
-## 📝 README.md
+README.md
+
 
 ```markdown
 # Cupertino Date & Time Picker
 
 A Flutter application demonstrating Cupertino-style Date and Time pickers with iOS-style wheel selection and real-time updates.
 
-## One-Line Widget Description
+## Widget Description
 
 A Flutter widget that provides native iOS-style date and time selection using scrollable wheels with real-time updates and AM/PM support.
 
-## Simple Run Instructions
+## Run Instructions
 
 ```bash
 # Clone the repository
@@ -27,7 +28,7 @@ flutter pub get
 flutter run
 ```
 
-## Three Key Attributes
+## Key Features
 
 ### 1. CupertinoDatePicker
 The main widget that provides iOS-style wheel-based selection. It supports two modes:
@@ -62,5 +63,3 @@ This project was built following Flutter's official Cupertino widgets documentat
 ```
 
 ---
-
-Just copy this, save as `README.md`, and commit! 🚀

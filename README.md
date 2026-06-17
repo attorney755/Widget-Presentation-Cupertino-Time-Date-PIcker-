@@ -1,18 +1,19 @@
----
-
-README.md
-
-
 ```markdown
-# Cupertino Date & Time Picker
+Cupertino Date & Time Picker
+============================
 
 A Flutter application demonstrating Cupertino-style Date and Time pickers with iOS-style wheel selection and real-time updates.
 
-## Widget Description
+---
 
+Widget Description
+------------------
 A Flutter widget that provides native iOS-style date and time selection using scrollable wheels with real-time updates and AM/PM support.
 
-## Run Instructions
+---
+
+Run Instructions
+----------------
 
 ```bash
 # Clone the repository
@@ -28,38 +29,31 @@ flutter pub get
 flutter run
 ```
 
-## Key Features
+---
 
-### 1. CupertinoDatePicker
+Key Features
+-----------
+
+**1. CupertinoDatePicker**
 The main widget that provides iOS-style wheel-based selection. It supports two modes:
 - **Date Mode**: Selects day, month, and year with configurable date range (2000-2030)
 - **Time Mode**: Selects hours and minutes with AM/PM support using 12-hour format
 
-### 2. showCupertinoModalPopup
+**2. showCupertinoModalPopup**
 Displays the picker as a bottom sheet, matching iOS native behavior:
 - Smooth slide-up animation from the bottom
 - Modal interaction (blocks background until dismissed)
 - Native iOS feel on both Android and iOS platforms
 
-### 3. Real-Time Updates with setState()
+**3. Real-Time Updates with setState()**
 The app updates the UI instantly as the user scrolls:
 - `onDateTimeChanged` callback fires on every scroll movement
 - `setState()` triggers a UI rebuild with the new value
 - Selected values display immediately in the subtitle
 
-## Screenshot
-
+---
+Screenshot
+----------
 ![App Screenshot](screenshots/app_screenshot.png)
-
-## Technologies Used
-
-- Flutter 3.x
-- Cupertino Widgets
-- Dart 3.x
-
-## Tutorial Reference
-
-This project was built following Flutter's official Cupertino widgets documentation.
-```
 
 ---
